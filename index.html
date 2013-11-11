@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" manifest="manifest.appcache">
+<html lang="en" manifest="manifest.appcache"> <!-- having manifest.appcache file makes it available offline -->
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stressman Soundboard</title>
+<meta name="apple-mobile-web-app-capable" content="yes"> <!-- this makes start the bookmark on ios in fullscreen mode -->
 <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
 <link rel="apple-touch-icon-precomposed" sizes="72x72" href="res/drawable-hdpi/ic_launcher.png">
 <link rel="apple-touch-icon-precomposed" href="res/drawable-hdpi/ic_launcher.png">
@@ -11,6 +12,8 @@
 <style>
 body {
  margin:0;padding:0;
+ background-image:url('res/drawable/background.png');
+ background-size: 100% auto;
 }
 h1 {
  width: 100%;
@@ -32,7 +35,7 @@ button {
 }
 </style>
 </head>
-<body style="background-image:url('res/drawable/background.png')">
+<body>
 <h1>Stressman Soundboard</h1>
 <button onclick="new Audio('res/raw/telaat.wav').play();">We zijn te laat!</button>
 <button onclick="new Audio('res/raw/plaats.wav').play();">Daar is plaats!</button>
