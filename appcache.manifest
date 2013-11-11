@@ -1,8 +1,9 @@
 CACHE MANIFEST
 
-index.html
+# version 2011-07-012 06:06:44 v1
 
 CACHE:
+index.html
 res/drawable/background.png
 res/raw/aaahhh.wav
 res/raw/egoist.wav
@@ -11,4 +12,10 @@ res/raw/neneuro.wav
 res/raw/plaats.wav
 res/raw/telaat.wav
 res/raw/webpiraat.wav
+
+FALLBACK:
+/ /fallback.html
+
+NETWORK:
+*
 
