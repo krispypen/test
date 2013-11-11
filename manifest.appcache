@@ -1,8 +1,6 @@
 CACHE MANIFEST
-
 # version 2011-07-012 06:06:44 v1
 
-CACHE:
 index.html
 res/drawable/background.png
 res/raw/aaahhh.wav
@@ -14,8 +12,10 @@ res/raw/telaat.wav
 res/raw/wegpiraat.wav
 
 FALLBACK:
-/ fallback.html
 
 NETWORK:
 *
+
+SETTINGS:
+prefer-online
 
