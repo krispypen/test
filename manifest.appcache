@@ -11,10 +11,10 @@ res/raw/hoeveel.wav
 res/raw/neneuro.wav
 res/raw/plaats.wav
 res/raw/telaat.wav
-res/raw/webpiraat.wav
+res/raw/wegpiraat.wav
 
 FALLBACK:
-/ /fallback.html
+/ fallback.html
 
 NETWORK:
 *
