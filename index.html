@@ -38,7 +38,9 @@ button {
 </head>
 <body>
 <h1>Stressman Soundboard</h1>
-<button onclick="new Audio('res/raw/telaat.wav').play();">We zijn te laat!</button>
+<audio id="audio1" src="res/raw/telaat.wav" preload="auto"></audio>
+
+<button onclick="document.getElementById('audio1').play();">We zijn te laat!</button>
 <button onclick="new Audio('res/raw/plaats.wav').play();">Daar is plaats!</button>
 <button onclick="new Audio('res/raw/egoist.wav').play();">Egoist!</button>
 <button onclick="new Audio('res/raw/wegpiraat.wav').play();">Wegpiraat!</button>
